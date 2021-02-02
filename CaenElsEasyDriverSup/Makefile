@@ -22,7 +22,8 @@ devEasyDriver_LIBS += $(EPICS_BASE_IOC_LIBS)
 
 # Install .dbd and .db files
 DBD += devEasyDriver.dbd
-DB_INSTALLS += devEasyDriver.db
+#DB_INSTALLS += devEasyDriver.db
+DB += devEasyDriver.db
 
 #=======================================
 include $(TOP)/configure/RULES

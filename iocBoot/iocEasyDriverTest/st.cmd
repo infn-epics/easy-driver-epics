@@ -3,7 +3,7 @@
 ###############################################################################
 # Set up environment
 epicsEnvSet("P","$(P=easyDriver:)")
-epicsEnvSet("EASY_DRIVER_91","$(EASY_DRIVER_91=192.168.0.12:10001)")
+epicsEnvSet("EASY_DRIVER_91","$(EASY_DRIVER_91=192.168.0.10:10001)")
 < envPaths
 cd "${TOP}"
 

@@ -20,7 +20,9 @@ The script was tested with:
 - **base 3.14.12.5** and 
 - **asyn 4.18**
 
-To compile the driver, execute the **make** command from the top folder
+To compile the driver, execute the **make** command from the top folder.
 
-Once the driver is correctly compiled it is possible to execute the ioc with the **./st.cmd ** from the iocBoot/iocEasyDriverTest folder.
+
+
+To configure the IP of the connected Easy Driver, edit the **./st.cmd ** from the iocBoot/iocEasyDriverTest folder. Now it is possible to execute the **./st.cmd** script  to run the easy driver ioc.
 

@@ -32,7 +32,7 @@ DBD += EasyDriverTest.dbd
 EasyDriverTest_DBD += base.dbd
 
 # Include dbd files from all support applications:
-EasyDriverTest_DBD += devEasyDriver.dbd
+EasyDriverTest_DBD += devEasyDriver.dbd asyn.dbd
 
 # Add all the support libraries needed by this IOC
 EasyDriverTest_LIBS += devEasyDriver

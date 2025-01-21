@@ -19,5 +19,5 @@
 # Build settings that are NOT module paths should appear in a
 # CONFIG_SITE file.
 
-ASYN = /epics/support/asyn
-EPICS_BASE = /epics/epics-base/
+EPICS_BASE=/epics/epics-base/
+ASYN=/epics/support/asyn

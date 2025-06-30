@@ -29,7 +29,7 @@ record(calcout, "$(P)$(R)state_calc") {
 
 record(mbbi, "$(P)$(R)state_rb") {
     field(DESC, "State readback")
-    field(SCAN,"passive")
+    field(SCAN,"Passive")
     field(ZRVL, "0")
     field(ZRST, "OFF")
     field(ONVL, "1")
